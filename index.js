@@ -22,6 +22,6 @@ app.get('/check/id/:id', (req, res) => {
 })
 
 
-app.listen(process.env.PORT || 300, () => {
-    console.log(`Verification API listening on port ${port}`)
+app.listen(process.env.PORT || 3000, () => {
+    console.log(`Verification API listening.`)
 })
